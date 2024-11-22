@@ -10,7 +10,7 @@
             <br>
             <br>
             <label for="password">password</label>
-            <input type="password" id="password" pattern="[a-zA-Z\d]+" minlength="5" maxlength="16" required><br>
+            <input type="password" id="password"  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[&$%#@]).{8,16}"  required title="please enter valide password"><br>
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="submit" value="login">
            <br><br>
